@@ -6,7 +6,7 @@
 }
 
 body{
-  background: linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+  background: linear-gradient(135deg,#41295a,#2F0743);
   min-height:100vh;
   display:flex;
   align-items:center;
@@ -21,16 +21,16 @@ body{
 .card{
   max-width:1100px;
   margin:auto;
-  background:#fff;
+  background:#fdfcff;
   border-radius:20px;
   display:flex;
   overflow:hidden;
-  box-shadow:0 25px 50px rgba(0,0,0,0.4);
+  box-shadow:0 25px 50px rgba(0,0,0,0.35);
 }
 
 .left{
   width:35%;
-  background:linear-gradient(180deg,#0a3d62,#1e5799);
+  background:linear-gradient(180deg,#6a0572,#ab83a1);
   color:#fff;
   padding:30px;
   text-align:center;
@@ -41,7 +41,7 @@ body{
   height:160px;
   object-fit:cover;
   border-radius:50%;
-  border:5px solid #fff;
+  border:5px solid #ffe6f7;
   margin-bottom:15px;
 }
 
@@ -69,7 +69,7 @@ body{
 }
 
 .info-box{
-  background:rgba(255,255,255,0.15);
+  background:rgba(255,255,255,0.2);
   padding:12px;
   border-radius:12px;
 }
@@ -93,7 +93,7 @@ body{
 }
 
 .right h2{
-  color:#0a3d62;
+  color:#6a0572;
   margin-bottom:8px;
   font-size:20px;
 }
@@ -101,6 +101,7 @@ body{
 .right p, .right li{
   font-size:14px;
   line-height:1.6;
+  color:#444;
 }
 
 .right ul{
@@ -114,7 +115,7 @@ body{
 }
 
 .skills span{
-  background:#0a3d62;
+  background:#6a0572;
   color:#fff;
   padding:6px 12px;
   border-radius:20px;
